@@ -10,8 +10,10 @@ namespace RL_Exercises
     {
         static void Main(string[] args)
         {
-            (new Tictactoe()).Run();
-
+            //(new Tictactoe()).Run();
+            //(new GridWorldIterativePolicy()).Run();
+            //(new CarRental()).Run();
+            (new CarRentalExercise()).Run();
             Console.Read();
         }
     }
